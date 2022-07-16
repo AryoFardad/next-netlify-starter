@@ -6,6 +6,8 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
+        <meta name="robots" content="noindex">
+        <meta name="googlebot" content="noindex">
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
